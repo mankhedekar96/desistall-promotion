@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/desistall-promotion/static/css/main.67f337f6.chunk.css",
-    "main.js": "/desistall-promotion/static/js/main.2482f757.chunk.js",
-    "main.js.map": "/desistall-promotion/static/js/main.2482f757.chunk.js.map",
+    "main.css": "/desistall-promotion/static/css/main.469f04fe.chunk.css",
+    "main.js": "/desistall-promotion/static/js/main.b1000391.chunk.js",
+    "main.js.map": "/desistall-promotion/static/js/main.b1000391.chunk.js.map",
     "runtime-main.js": "/desistall-promotion/static/js/runtime-main.68f48dc0.js",
     "runtime-main.js.map": "/desistall-promotion/static/js/runtime-main.68f48dc0.js.map",
     "static/js/2.60e4c777.chunk.js": "/desistall-promotion/static/js/2.60e4c777.chunk.js",
@@ -10,8 +10,9 @@
     "static/js/3.1f10c975.chunk.js": "/desistall-promotion/static/js/3.1f10c975.chunk.js",
     "static/js/3.1f10c975.chunk.js.map": "/desistall-promotion/static/js/3.1f10c975.chunk.js.map",
     "index.html": "/desistall-promotion/index.html",
-    "static/css/main.67f337f6.chunk.css.map": "/desistall-promotion/static/css/main.67f337f6.chunk.css.map",
+    "static/css/main.469f04fe.chunk.css.map": "/desistall-promotion/static/css/main.469f04fe.chunk.css.map",
     "static/js/2.60e4c777.chunk.js.LICENSE.txt": "/desistall-promotion/static/js/2.60e4c777.chunk.js.LICENSE.txt",
+    "static/media/discord.e5817b0a.svg": "/desistall-promotion/static/media/discord.e5817b0a.svg",
     "static/media/feature-icon-1.50eab7df.svg": "/desistall-promotion/static/media/feature-icon-1.50eab7df.svg",
     "static/media/feature-icon-2.49e1f45f.svg": "/desistall-promotion/static/media/feature-icon-2.49e1f45f.svg",
     "static/media/feature-icon-3.e98faf85.svg": "/desistall-promotion/static/media/feature-icon-3.e98faf85.svg",
@@ -26,12 +27,13 @@
     "static/media/moon.681111d2.svg": "/desistall-promotion/static/media/moon.681111d2.svg",
     "static/media/roadmap.12e0303c.svg": "/desistall-promotion/static/media/roadmap.12e0303c.svg",
     "static/media/sun.362a5c62.svg": "/desistall-promotion/static/media/sun.362a5c62.svg",
+    "static/media/twitter.8c0c50e3.svg": "/desistall-promotion/static/media/twitter.8c0c50e3.svg",
     "static/media/website-cover.d862f4d7.svg": "/desistall-promotion/static/media/website-cover.d862f4d7.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.68f48dc0.js",
     "static/js/2.60e4c777.chunk.js",
-    "static/css/main.67f337f6.chunk.css",
-    "static/js/main.2482f757.chunk.js"
+    "static/css/main.469f04fe.chunk.css",
+    "static/js/main.b1000391.chunk.js"
   ]
 }
