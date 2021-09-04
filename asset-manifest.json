@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/desistall-promotion/static/css/main.7949da69.chunk.css",
-    "main.js": "/desistall-promotion/static/js/main.4e843e2b.chunk.js",
-    "main.js.map": "/desistall-promotion/static/js/main.4e843e2b.chunk.js.map",
+    "main.js": "/desistall-promotion/static/js/main.30cf1f89.chunk.js",
+    "main.js.map": "/desistall-promotion/static/js/main.30cf1f89.chunk.js.map",
     "runtime-main.js": "/desistall-promotion/static/js/runtime-main.68f48dc0.js",
     "runtime-main.js.map": "/desistall-promotion/static/js/runtime-main.68f48dc0.js.map",
     "static/js/2.60e4c777.chunk.js": "/desistall-promotion/static/js/2.60e4c777.chunk.js",
@@ -12,7 +12,7 @@
     "index.html": "/desistall-promotion/index.html",
     "static/css/main.7949da69.chunk.css.map": "/desistall-promotion/static/css/main.7949da69.chunk.css.map",
     "static/js/2.60e4c777.chunk.js.LICENSE.txt": "/desistall-promotion/static/js/2.60e4c777.chunk.js.LICENSE.txt",
-    "static/media/discord.e5817b0a.svg": "/desistall-promotion/static/media/discord.e5817b0a.svg",
+    "static/media/discord.19914a81.svg": "/desistall-promotion/static/media/discord.19914a81.svg",
     "static/media/feature-icon-1.50eab7df.svg": "/desistall-promotion/static/media/feature-icon-1.50eab7df.svg",
     "static/media/feature-icon-2.49e1f45f.svg": "/desistall-promotion/static/media/feature-icon-2.49e1f45f.svg",
     "static/media/feature-icon-3.e98faf85.svg": "/desistall-promotion/static/media/feature-icon-3.e98faf85.svg",
@@ -34,6 +34,6 @@
     "static/js/runtime-main.68f48dc0.js",
     "static/js/2.60e4c777.chunk.js",
     "static/css/main.7949da69.chunk.css",
-    "static/js/main.4e843e2b.chunk.js"
+    "static/js/main.30cf1f89.chunk.js"
   ]
 }
