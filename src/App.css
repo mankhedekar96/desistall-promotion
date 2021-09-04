@@ -1,6 +1,68 @@
+body{
+  font-style: normal;
+  font-weight: normal;
+  line-height: 26px;
+}
+
 .header{
   width: 100%;
-  height: 64px;
+  height: 88px;
+  background-color: white;
+}
+
+.time-counter{
+  height: 444px;
+  background-color: white;
+}
+
+.welcome-section{
+  height: 436px;
+  background-color: white;
+}
+
+.joining-section{
+  height: 668px;
+  background-color: #F4F5F7;
+}
+
+.roadmap-section{
+  height: 960px;
+  background-color: white;
+}
+
+.team-section{
+  height: 520px;
+  background-color: #F4F5F7;
+}
+
+.dark-mode .header{
+  background-color: #101010;
+  color: white;
+}
+
+.dark-mode .time-counter{
+  background-color: #101010;
+  color: white;
+}
+
+.dark-mode .welcome-section{
+  background-color: #101010;
+  color: white;
+}
+
+.dark-mode .joining-section{
+  background-color: #171717;
+  color: white;
+}
+
+.dark-mode .roadmap-section{
+  background-color: #101010;
+  color: white;
+}
+
+.dark-mode .team-section{
+  background-color: #171717;
+  color: white;
 }
 
 .logo{
@@ -17,14 +79,17 @@
 }
 
 .cover{
-  height: 576px;
+  height: 490px;
 }
 
-.welcome-section{
-  height: 536px;
+.team-icon{
+  width: 164px;
+  height: 164px;
+  border-radius: 50%;
 }
 
-.joining-section{
-  height: 668px;
-  background-color: #F4F5F7;
+.footer{
+  width: 100%;
+  height: 88px;
+  background-color: #101010;
 }

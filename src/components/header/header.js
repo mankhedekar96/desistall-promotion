@@ -1,24 +1,27 @@
 import logo from '../../images/logo.svg';
+import logoDark from '../../images/logo-dark.svg';
+import sun from '../../images/sun.svg';
+import moon from '../../images/moon.svg';
 
-function Header() {
+function Header(props) {
   return (
     <div className="header w-full bg-white">
-        <div class="container w-3/4 mx-auto p-1 my-auto flex justify-between">
+        <div class="container w-3/4 mx-auto py-4 my-auto flex justify-between">
             <div>
-                <img src={logo} className="logo" alt="logo" />
+                <img src={props.mode ? logoDark : logo} className="logo" alt="logo" />
             </div>
             <div className="flex w-auto h-full align-middle">
+              <div className="text-lg p-3">
+                <label>Discord</label>
+              </div>
+              <div className="text-lg p-3">
+                <label>Twitter</label>
+              </div>
               <div className="text-lg p-3">
                 <label>Roadmap</label>
               </div>
               <div className="text-lg p-3">
-                <label>Gallery</label>
-              </div>
-              <div className="text-lg p-3">
-                <label>Members</label>
-              </div>
-              <div className="text-lg p-1.5">
-                <button className="mint-btn">Mint a Desi Punk</button>
+                <img src={props.mode ? sun : moon} alt="visual mode" onClick={props.changeMode}/>
               </div>
             </div>
         </div>
