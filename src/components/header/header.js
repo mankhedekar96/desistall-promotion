@@ -27,7 +27,7 @@ function Header(props) {
   return (
     <div className="header w-full bg-white">
         <div className="container w-3/4 mx-auto py-4 my-auto flex justify-between">
-            <div>
+            <div className="d-flex justify-between">
                 <img src={props.mode ? logoDark : logo} className="logo" alt="logo" />
                 <div onClick={menuChange} className="menu">
                     <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" className="bi bi-list" viewBox="0 0 16 16">
