@@ -6,7 +6,7 @@ import roadmap from '../../images/roadmap.svg';
 
 function RoadmapSection() {
   return (
-    <div className="w-full roadmap-section">
+    <div className="w-full roadmap-section pb-8">
       <p className="container w-3/4 mx-auto py-16 text-5xl font-semibold leading-tight mb-6">
           Roadmap
       </p>

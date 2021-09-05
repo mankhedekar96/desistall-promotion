@@ -7,7 +7,7 @@ import JoiningSection from './components/joining-section/joining-section'
 import { useCallback, useState } from 'react'
 import TimeCounter from './components/time-counter/time-counter'
 import RoadmapSection from './components/roadmap-section/roadmap-section'
-import TeamSection from './components/team-section/team-section'
+// import TeamSection from './components/team-section/team-section'
 
 function App() {
   const [mode, setMode] = useState('');
@@ -22,7 +22,7 @@ function App() {
       <WelcomeSection />
       <JoiningSection />
       <RoadmapSection />
-      <TeamSection />
+      {/* <TeamSection /> */}
       <Footer />
     </div>
   );

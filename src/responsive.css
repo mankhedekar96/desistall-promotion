@@ -32,12 +32,6 @@
     margin-top: 12px;
 }
 
-.responsive-timer .counter-block:before {
-    transform: translate(49px, -50%);
-    width: 6px;
-    height: 24px;
-}
-
 .responsive-timer .counter-block:after {
     width: 6px;
     height: 24px;

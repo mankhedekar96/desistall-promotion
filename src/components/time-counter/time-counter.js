@@ -10,7 +10,7 @@ function TimeCounter() {
   });
 
   // Set the date we're counting down to
-  const countDownDate = new Date("Sept 20, 2021 12:00:00").getTime();
+  const countDownDate = new Date("Sept 25, 2021 12:00:00").getTime();
 
   const padLeadingZeros = useCallback((num, size) => {
     var s = num+"";
@@ -51,7 +51,7 @@ function TimeCounter() {
     <div className="w-full time-counter">
       <div className="container w-3/4 mx-auto pt-12 my-auto">
         <p className="text-5xl italic font-bold leading-tight mb-6 w-full text-center">
-            Launching on (date)
+            Launching on 25th September 2021
         </p>
         <div className="w-4/5 mx-auto pt-10 my-auto flex responsive-timer justify-between">
           <div className="counter-block">
