@@ -8,14 +8,12 @@ function Header(props) {
 
   const [menuClass, setMenuClass] = useState(false);
 
-  var menuChange =()=> {
-    if(menuClass == true) {
+  const menuChange = () => {
+    if(menuClass) {
       setMenuClass(false)
     }else {
       setMenuClass(true)
-
     }
-
   }
 
   useEffect(() => {
