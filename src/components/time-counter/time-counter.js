@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useCallback, useState } from "react";
 
 
 function TimeCounter() {
@@ -11,6 +11,12 @@ function TimeCounter() {
 
   // Set the date we're counting down to
   const countDownDate = new Date("Sept 20, 2021 12:00:00").getTime();
+
+  const padLeadingZeros = useCallback((num, size) => {
+    var s = num+"";
+    while (s.length < size) s = "0" + s;
+    return s;
+  },[]);
   
   // Update the count down every 1 second
   const x = setInterval(() => {
@@ -29,10 +35,10 @@ function TimeCounter() {
   
     // Display the result in the element with updating state
     setLanuchDate({
-      days: days.toString(),
-      hours: hours.toString(),
-      minutes: minutes.toString(),
-      seconds: seconds.toString(),
+      days: padLeadingZeros(days, 2),
+      hours: padLeadingZeros(hours, 2),
+      minutes: padLeadingZeros(minutes, 2),
+      seconds: padLeadingZeros(seconds, 2),
     });
   
     // If the count down is finished, write some text
@@ -42,8 +48,8 @@ function TimeCounter() {
   }, 1000);
 
   return (
-    <div className="w-full time-counter">
-      <div className="container w-3/4 mx-auto py-12 my-auto">
+    <div className="w-full time-counter mb-16">
+      <div className="container w-3/4 mx-auto pt-12 my-auto">
         <p className="text-5xl italic font-bold leading-tight mb-6 w-full text-center">
             Launching on (date)
         </p>
