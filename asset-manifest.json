@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/desistall-promotion/static/css/main.6b5576f0.chunk.css",
-    "main.js": "/desistall-promotion/static/js/main.6bce7c2f.chunk.js",
-    "main.js.map": "/desistall-promotion/static/js/main.6bce7c2f.chunk.js.map",
+    "main.css": "/desistall-promotion/static/css/main.ca7b7507.chunk.css",
+    "main.js": "/desistall-promotion/static/js/main.99eba9b2.chunk.js",
+    "main.js.map": "/desistall-promotion/static/js/main.99eba9b2.chunk.js.map",
     "runtime-main.js": "/desistall-promotion/static/js/runtime-main.68f48dc0.js",
     "runtime-main.js.map": "/desistall-promotion/static/js/runtime-main.68f48dc0.js.map",
     "static/js/2.b823300f.chunk.js": "/desistall-promotion/static/js/2.b823300f.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.1f10c975.chunk.js": "/desistall-promotion/static/js/3.1f10c975.chunk.js",
     "static/js/3.1f10c975.chunk.js.map": "/desistall-promotion/static/js/3.1f10c975.chunk.js.map",
     "index.html": "/desistall-promotion/index.html",
-    "static/css/main.6b5576f0.chunk.css.map": "/desistall-promotion/static/css/main.6b5576f0.chunk.css.map",
+    "static/css/main.ca7b7507.chunk.css.map": "/desistall-promotion/static/css/main.ca7b7507.chunk.css.map",
     "static/js/2.b823300f.chunk.js.LICENSE.txt": "/desistall-promotion/static/js/2.b823300f.chunk.js.LICENSE.txt",
     "static/media/discord.19914a81.svg": "/desistall-promotion/static/media/discord.19914a81.svg",
     "static/media/feature-icon-1.50eab7df.svg": "/desistall-promotion/static/media/feature-icon-1.50eab7df.svg",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.68f48dc0.js",
     "static/js/2.b823300f.chunk.js",
-    "static/css/main.6b5576f0.chunk.css",
-    "static/js/main.6bce7c2f.chunk.js"
+    "static/css/main.ca7b7507.chunk.css",
+    "static/js/main.99eba9b2.chunk.js"
   ]
 }
