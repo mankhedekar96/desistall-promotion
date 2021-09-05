@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "craco build",
+    "build": "craco build && next export",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
     "test": "craco test",
