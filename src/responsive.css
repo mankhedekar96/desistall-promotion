@@ -38,11 +38,10 @@
 }
 
 .responsive-timer-text {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    font-size: 16px;
-    margin-top: -9px;
+    top: 60px;
+    font-size: 16px !important;
+    margin: 0 !important;
+    text-align: center !important;
 }
 
 .responsive-timer .counter-block {

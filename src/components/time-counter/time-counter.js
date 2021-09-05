@@ -49,29 +49,27 @@ function TimeCounter() {
 
   return (
     <div className="w-full time-counter">
-      <div className="container w-3/4 mx-auto pt-12 my-auto">
+      <div className="container w-3/4 mx-auto py-12 my-auto">
         <p className="text-5xl italic font-bold leading-tight mb-6 w-full text-center">
             Launching on <br/> 25th September 2021 <br/>12PM IST
         </p>
         <div className="w-4/5 mx-auto pt-10 my-auto flex responsive-timer justify-between">
           <div className="counter-block">
             <p className="text-6xl font-bold ml-11 mt-16">{launchDate.days}</p>
+            <p className="w-full text-2xl font-bold text-center absolute top-44 responsive-timer-text">Days</p>
           </div>
           <div className="counter-block">
             <p className="text-6xl font-bold ml-11 mt-16">{launchDate.hours}</p>
+            <p className="w-full text-2xl font-bold text-center absolute top-44 responsive-timer-text">Hours</p>
           </div>
           <div className="counter-block">
             <p className="text-6xl font-bold ml-11 mt-16">{launchDate.minutes}</p>
+            <p className="w-full text-2xl font-bold text-center absolute top-44 responsive-timer-text">Mins</p>
           </div>
           <div className="counter-block">
             <p className="text-6xl font-bold ml-11 mt-16">{launchDate.seconds}</p>
+            <p className="w-full text-2xl font-bold text-center absolute top-44 responsive-timer-text">Secs</p>
           </div>
-        </div>
-        <div className="w-4/5 mx-auto responsive-timer-text pt-4 my-auto flex justify-between text-2xl font-bold">
-          <p className="w-1/5 text-center">Days</p>
-          <p className="w-1/5 text-center">Hours</p>
-          <p className="w-1/5 text-center">Minutes</p>
-          <p className="w-1/5 text-center">Seconds</p>
         </div>
       </div>
     </div>

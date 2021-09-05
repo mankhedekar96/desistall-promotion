@@ -15,11 +15,11 @@ function WelcomeSection() {
             After riding the Bitcoin Development wave, Satoshi Nakamoto
             seemingly dissapeared to a coastal city of western India and 
             shared the idea of Blockchain with the indians, who create a 
-            desi punk community on the ethereum blockchain.
+            Desi Sol community on the ethereum blockchain.
           </p>
           <p className="text-lg mt-3">
             Become a part 10,000 strong community by getting your very 
-            own Desi Punk.
+            own Desi Sol.
           </p>
         </div>
         <div className="w-1/2 pt-4">
