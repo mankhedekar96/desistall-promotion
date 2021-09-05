@@ -48,7 +48,7 @@ function TimeCounter() {
   }, 1000);
 
   return (
-    <div className="w-full time-counter mb-16">
+    <div className="w-full time-counter">
       <div className="container w-3/4 mx-auto pt-12 my-auto">
         <p className="text-5xl italic font-bold leading-tight mb-6 w-full text-center">
             Launching on (date)
