@@ -53,7 +53,7 @@ function TimeCounter() {
         <p className="text-5xl italic font-bold leading-tight mb-6 w-full text-center">
             Launching on (date)
         </p>
-        <div className="w-4/5 mx-auto pt-10 my-auto  responsive-timer justify-between">
+        <div className="w-4/5 mx-auto pt-10 my-auto flex responsive-timer justify-between">
           <div className="counter-block">
             <p className="text-6xl font-bold ml-11 mt-16">{launchDate.days}</p>
           </div>
@@ -67,7 +67,7 @@ function TimeCounter() {
             <p className="text-6xl font-bold ml-11 mt-16">{launchDate.seconds}</p>
           </div>
         </div>
-        <div className="w-4/5 mx-auto esponsive-timer-text pt-4 my-auto flex justify-between text-2xl font-bold">
+        <div className="w-4/5 mx-auto responsive-timer-text pt-4 my-auto flex justify-between text-2xl font-bold">
           <p className="w-1/5 text-center">Days</p>
           <p className="w-1/5 text-center">Hours</p>
           <p className="w-1/5 text-center">Minutes</p>

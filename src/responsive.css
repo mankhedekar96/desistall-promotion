@@ -34,15 +34,16 @@
 
 .responsive-timer .counter-block:before {
     transform: translate(49px, -50%);
-    width: 5px;
-    height: 35px;
+    width: 6px;
+    height: 24px;
 }
 
 .responsive-timer .counter-block:after {
-    width: 5px;
+    width: 6px;
+    height: 24px;
 }
 
-.responsive-timer .text {
+.responsive-timer-text {
     display: flex;
     flex-direction: row;
     width: 100%;
