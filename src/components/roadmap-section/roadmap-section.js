@@ -11,7 +11,7 @@ function RoadmapSection() {
           Roadmap
       </p>
     
-      <div class="container w-3/4 mx-auto my-auto flex justify-between">
+      <div className="container w-3/4 mx-auto my-auto flex justify-between">
         <div className="w-1/2 py-16">
             <div className="flex my-8">
                 <div className="mr-8">

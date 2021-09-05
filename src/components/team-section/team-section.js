@@ -6,7 +6,7 @@ import man2 from '../../images/man-2.svg';
 function TeamSection() {
     return (
       <div className="w-full team-section">
-        <div class="container w-3/4 mx-auto py-16 my-auto">
+        <div className="container w-3/4 mx-auto py-16 my-auto">
           <p className="text-5xl font-semibold leading-tight mb-4 w-full text-center">
               The Team
           </p>

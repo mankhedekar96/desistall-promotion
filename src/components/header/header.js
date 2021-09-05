@@ -6,7 +6,7 @@ import moon from '../../images/moon.svg';
 function Header(props) {
   return (
     <div className="header w-full bg-white">
-        <div class="container w-3/4 mx-auto py-4 my-auto flex justify-between">
+        <div className="container w-3/4 mx-auto py-4 my-auto flex justify-between">
             <div>
                 <img src={props.mode ? logoDark : logo} className="logo" alt="logo" />
             </div>

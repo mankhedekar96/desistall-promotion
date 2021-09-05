@@ -6,7 +6,7 @@ import man2 from '../../images/man-2.svg';
 function WelcomeSection() {
   return (
     <div className="w-full welcome-section">
-      <div class="container w-3/4 mx-auto py-8 my-auto flex justify-between">
+      <div className="container w-3/4 mx-auto py-8 my-auto flex justify-between">
         <div className="w-1/2">
           <p className="text-6xl italic font-semibold leading-tight mb-6">
             WELCOME TO THE DESI STALL
