@@ -51,7 +51,7 @@ function TimeCounter() {
     <div className="w-full time-counter">
       <div className="container w-3/4 mx-auto pt-12 my-auto">
         <p className="text-5xl italic font-bold leading-tight mb-6 w-full text-center">
-            Launching on 25th September 2021
+            Launching on <br/> 25th September 2021 <br/>12PM IST
         </p>
         <div className="w-4/5 mx-auto pt-10 my-auto flex responsive-timer justify-between">
           <div className="counter-block">
