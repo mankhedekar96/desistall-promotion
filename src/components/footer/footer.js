@@ -5,7 +5,7 @@ import discord from '../../images/discord.svg';
 function Footer() {
   return (
     <div className="footer w-full bg-white">
-        <div class="container w-3/4 mx-auto py-4 my-auto flex justify-between">
+        <div className="container w-3/4 mx-auto py-4 my-auto flex justify-between">
             <div>
                 <img src={logoDark} className="logo" alt="logo" />
             </div>
